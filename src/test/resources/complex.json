@@ -1,0 +1,74 @@
+{
+  "status": "success",
+  "data": {
+    "userDetails": {
+      "id": 12345,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phoneNumbers": [
+        {
+          "type": "home",
+          "number": "123-456-7890"
+        },
+        {
+          "type": "work",
+          "number": "987-654-3210"
+        }
+      ],
+      "address": {
+        "street": "123 Main St",
+        "city": "Springfield",
+        "state": "IL",
+        "postalCode": "62704",
+        "geo": {
+          "latitude": 39.7817,
+          "longitude": -89.6501
+        }
+      },
+      "preferences": {
+        "notifications": true,
+        "theme": "dark",
+        "languages": ["English", "Spanish", "French"]
+      }
+    },
+    "recentOrders": [
+      {
+        "orderId": 101,
+        "orderDate": "2025-01-15",
+        "items": [
+          {
+            "itemId": 1,
+            "name": "Laptop",
+            "quantity": 1,
+            "price": 1200.99
+          },
+          {
+            "itemId": 2,
+            "name": "Mouse",
+            "quantity": 1,
+            "price": 25.50
+          }
+        ],
+        "totalAmount": 1226.49
+      },
+      {
+        "orderId": 102,
+        "orderDate": "2025-01-20",
+        "items": [
+          {
+            "itemId": 3,
+            "name": "Smartphone",
+            "quantity": 1,
+            "price": 799.99
+          }
+        ],
+        "totalAmount": 799.99
+      }
+    ]
+  },
+  "meta": {
+    "requestId": "abc123xyz",
+    "timestamp": "2025-01-26T14:30:00Z",
+    "responseTimeMs": 250
+  }
+}

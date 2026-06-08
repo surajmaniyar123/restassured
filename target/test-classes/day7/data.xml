@@ -1,0 +1,21 @@
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <role>Developer</role>
+        <department>IT</department>
+        <projects>
+            <project>Project A</project>
+            <project>Project B</project>
+        </projects>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Doe</name>
+        <role>Manager</role>
+        <department>Sales</department>
+        <projects>
+            <project>Project C</project>
+        </projects>
+    </employee>
+</employees>

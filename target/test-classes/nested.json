@@ -1,0 +1,28 @@
+{
+    "dashboard": {
+        "purchaseAmount": 1060,
+        "website": "code2test.com"
+    },
+    "courses": [
+        {
+            "title": "Selenium",
+            "price": 50,
+            "copies": 6
+        },
+        {
+            "title": "Appium",
+            "price": 40,
+            "copies": 4
+        },
+        {
+            "title": "Rest Assured",
+            "price": 45,
+            "copies": 10
+        },
+        {
+            "title": "Postman",
+            "price": 30,
+            "copies": 5
+        }
+    ]
+}
